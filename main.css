@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    box-sizing :border-box;
+}
+.main-section{
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  /* background-image: url(./notion/background.png.png);  */
+    background-color:white;
+     background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+ background-image:  linear-gradient(transparent, #090101da),url(./notion/background.png.png),;     
+         
+} 
+.main-section-header{
+   
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    padding:15px ;
+}
+.btn{
+    margin: 0px 5px;
+     background-color:transparent;
+     color: white;
+     border: none;
+     padding: 8px 12px;
+}
+.btn-border{
+    border: 1px solid  white;
+    border-radius: 4px;
+}
+.brand{
+    margin-top: 20px;
+    background-color: white;
+    height:100px;
+    width:120px;
+    display:flex;
+    justify-content:center;
+align-items: center;
+border-radius: 60px;
+font-family: sans-serif;
+
+color: #EB2929;
+
+}
+.brand-text{
+    font-size: 50px;
+color :red;
+    font-weight: bold;
+}
+.sub-title{
+    font-size: 30px;
+    margin:20px 0;
+    color: white;
+}
+.search{
+   width: 40%;
+    margin: 20px;
+}
+.search-location{
+    width:35%;
+    padding:10px;
+}
+.search-restaurant{
+    width:63; padding:10px;
+
+}
+/* meal type */
+  .meal-type-main-section{
+    box-shadow: 0 20px 40px 0,black, 0 40px 12px 0 gray;
+
+width:100%;
+display:flex;
+justify-content: center;
+  }
+  .meal-type-sub-section{
+    width: 80%;
+    margin:40px;
+     
+  }
+  .meal-type-main-title{
+font-size: 28px;
+color:#192F60
+  }
+.meal-type-sub-title{
+    margin: 10px 0;
+    font-size: 18px;
+    color: #8c96ab;
+    
+  }
+  .meal-type-item{
+    border: 1px rgb(175, 172, 172);
+ background: white 0% 0% no-repeat padding-box; 
+/* box-shadow:  0px 2px 3px 0px ; */
+box-shadow: 0px 3px 6px #00000029;
+
+    width: 40%;
+    display:flex;
+    margin-bottom: 20px;
+  }
+  .meal-type-item-img{
+    width: 100%;
+    height: 100%;
+  }
+  .meal-type-item-p-div{
+
+    width:50%;
+    padding:8px;
+  }
+  .meal-type-item-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color:#192F60;
+  }
+
+  .meal-type-item-sub-title{
+    color:#8c96ab;
+    font-size: 17px;;
+  }
+  .meal-type-list{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+
+  }
